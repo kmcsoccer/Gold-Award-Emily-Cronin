@@ -1,0 +1,17 @@
+body {
+  background-color: rgba(37, 217, 73, 0.7);
+ }
+
+h1 {
+  text-align: center;
+  font-family: 'Baloo Da 2', cursive;
+  font-size: 35px;
+ }
+  
+hr {
+  border-color: #000000;
+ }
+
+li {
+  font-family: 'Bitter', serif;
+}
