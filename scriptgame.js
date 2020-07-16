@@ -1,9 +1,9 @@
 /* global createCanvas, frameRate, background, loadImage, image*/
 
 let img;
-function preload() {
+/*function preload() {
   img = loadImage('WormClipart.jpg');
-}
+}*/
 
 function setup(){
   createCanvas(800, 500);
@@ -12,7 +12,7 @@ function setup(){
   background(50);
   // Top-left corner of the img is at (10, 10)
   // Width and height are 50 x 50
-  image(img, 10, 10, 50, 50);
+  //image(img, 10, 10, 50, 50);
 }
 
 function draw(){
