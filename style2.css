@@ -12,6 +12,20 @@ hr {
   border-color: #000000;
  }
 
+.columnfont {
+  color: #000000;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+}
+
 li {
   font-family: 'Bitter', serif;
+}
+
+#color1 {
+  color: #388c2e;
+}
+
+#color2 {
+  color: #cf0808;
 }
