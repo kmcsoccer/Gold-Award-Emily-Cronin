@@ -3,6 +3,8 @@
   
   
 <style>
+  
+/*BUTTONS*/
   .btn-group button {
   background-color: #ffffff; /* Green background */
   border: 1px solid green; /* Green border */
@@ -24,13 +26,36 @@
 .btn-group button:hover {
   background-color: #e1e6e2;
 }
+  
+  
+  
+/*COLUMNS*/
+{
+        box-sizing: border-box;
+    }
+    /* Set additional styling options for the columns*/
+    .column {
+    float: left;
+    width: 50%;
+    height:600px;
+    background-color: #ffffff;
+    text-align: center;
+    }
+
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
 
 </style>
   
   <head>
+    <title> Composting! </title>
     <link rel = "stylesheet" href = "style2.css">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
   </head>
   
 <body>
@@ -41,23 +66,58 @@
   <div class="btn-group" style="text-align:center;">
     <button><a href = "index.html" > Home </a> </button>
     <button><a href = "index2facts.html" > Fun Facts </a> </button>
-    <button><a href = "index3game.html" > Game </a> </button>
+    <button><a href = "index3compostgame.html" > Composting Game </a> </button>
+    <button><a href = "index4recyclegame.html"> Recycling Game </a></button>
+    <button><a href = "index5crafts.html" > Crafts </a> </button>
+    <button><a href = "index6about.html"> About </a> </button>
   </div><br><br>
 
-  <ul>
-  <li> Acidic foods hurt worms; don't put them in compost. Examples include the peels and insides of lemons, oranges, limes, and onions.</li><br>
-  <li> Milk and meat products attract unwanted pests; don't put them in compost. Examples include chicken, salmon, bacon, butter, and cheese.</li><br>
-  <li> Newspaper strips and paper egg cartons can be added to a compost, but they cannot have colored print on them.</li><br>
-  <li> Clothing made with biodegrable materials like cotton, silk, and wool don't include unnatural dye and can be included in compost bins. 
-    Clothing made with synthetic materials like polyester and spandex should never be used.</li><br>
-  <li> Plastic items take too long to degrade and should never be put in a compost bin. Example incude food wrappers, plastic bags, and plastic water bottles.</li><br>
-  <li> Greasy foods such as chips, fries, and sausage should never be put in a compost.</li><br>
-  <li> Natural cotton balls can be added into compost bins, but cannot be soaked with any substances because oils attract unwanted pests.</li><br>
-  <li> Fruit pits from magos, avocados, peaches, plums, etc. can be used in a compost bin.</li><br>
-  <li> Tea leaves and coffee grinds are welcome in compost bins, but since tea and coffe bags contain synthetic materials, those items are not welcome.</li><br>
-  <li> Fallen leaves, pine needles, twigs, newspaper strips, plastic egg cartons and dryer lint are just a few items called "brown material." Brown material is dry or woody plant based material
-     that is essential to a healthy compost bin because it assits in the overall fast break down of the compost.</li>
-    </ul>
   
+  
+  
+  <div class="row"> <center>
+    
+        <div class="column" style="background-color:#ffffff;">
+          <h2 id = "color1"> <center> <u> DO Compost </u> </center> </h2>
+            <p>
+              <ul>
+                <li class = "columnfont"> Newspaper strips and paper egg cartons can be added to a<br>compost, but they cannot have
+                                            colored print on them.</li><br>
+                <li class = "columnfont"> Clothing made with biodegrable materials like cotton, silk, and wool<br>don't include unnatural
+                                            dye and can be included in compost bins.<br>Clothing made with synthetic materials like polyester and
+                                            <br>spandex should never be used.</li><br>
+                <li class = "columnfont"> Fruit pits from magos, avocados, peaches, plums, etc.<br>can be used in a compost bin.</li><br>
+                <li class = "columnfont"> Tea leaves and coffee grinds are welcome in compost bins, but<br>since tea and coffee bags contain
+                                            synthetic materials,<br>those items are not welcome.</li><br>
+                <li class = "columnfont"> Fallen leaves, pine needles, twigs, newspaper strips, plastic egg<br>cartons and dryer lint are
+                                            just a few items called "brown material."<br>Brown material is dry or woody plant based material that
+                                            is<br>essential to a healthy compost bin because it assits in the overall<br>fast break down of the compost.</li>
+              </ul>
+            </p>
+        </div>
+    
+    
+    
+        <div class="column" style="background-color:#ffffff;">
+          <h2 id = "color2"> <center> <u> DO NOT Compost </u> </center> </h2>
+          <p>
+            <ul>
+              <li class = "columnfont"> Acidic foods hurt worms; don't put them in compost. Examples<br>include the peels and insides of lemons,
+                                          oranges, limes, and onions.</li><br>
+                <li class = "columnfont"> Milk and meat products attract unwanted pests; don't put them in compost.<br>Examples include chicken,
+                                            salmon, bacon, butter, and cheese.</li><br>
+                <li class = "columnfont"> Plastic items take too long to degrade and should never be put in a<br>compost bin. Example incude food wrappers,
+                                            plastic bags,<br>and plastic water bottles.</li><br>
+                <li class = "columnfont"> Greasy foods such as chips, fries, and sausage should never be<br>put in a compost due to the unwanted attraction of
+                                            pests and smell.</li><br>
+                <li class = "columnfont"> Pet waste from cats and dogs should not be used in a compost.<br>This is becasue they can sometimes include
+                                            unwanted microorganisms<br>and/or parasites.</li><br>
+                <li class = "columnfont"> All bread products, including cakes, pasta and baked goods, shouldn't<br>go into a compost because they can attract
+                                            unwanted pests and can upset the moisture balance of your compost pile.</li>
+            </ul>
+          </p>
+        </div>
+    
+  </center></div>
 </body>
 </html>
