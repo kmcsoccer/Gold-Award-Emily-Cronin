@@ -1,4 +1,4 @@
-/* CRAFTS */
+/* RECYCLING */
 body {
   background-color: rgba(37, 217, 73, 0.7);
 }
@@ -23,36 +23,9 @@ hr {
   padding-top: 60px;
 }
 
-h5 {
-  background-color: #ffffff;
-  text-align: center;
-  height: 850px;
-  border-style: groove;
-  border-radius: 30px;
-}
-
 h2 {
-  font-size: 30px;
-  font-family: "Noto Serif", serif;
-}
-
-.craft {
-  font-size: 23px;
-  font-family: "Lora", serif;
-}
-
-#headone {
-  font-size: 30px;
-  font-family: "Raleway", sans-serif;
-}
-
-.reusableitems {
-  font-size: 20px;
-}
-
-.craftlist {
-  font-size: 18px;
   font-family: "Poppins", sans-serif;
+  font-size: 20px;
 }
 
 canvas {
@@ -60,16 +33,10 @@ canvas {
   margin: auto;
   display: block;
   width: 800px;
-  height: 600px;
+  height: 500px;
   position: absolute;
   top: 30;
   bottom: 20;
   left: 0;
   right: 0;
-}
-
-#timer {
-  color: white;
-  font-size: 25;
-  font-family: "Roboto Mono", monospace;
 }
