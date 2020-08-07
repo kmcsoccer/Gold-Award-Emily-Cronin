@@ -1,5 +1,5 @@
 /* global createCanvas, frameRate, background, loadImage, image, noStroke, fill, rect, width, text, score, keyIsPressed, keyCode, LEFT_ARROW, RIGHT_ARROW,
-WormPositionX, WormPositionY, textSize, ellipse, mouseIsPressed, mouseX, mouseY, imageone*/
+WormPositionX, WormPositionY, textSize, ellipse, mouseIsPressed, mouseX, mouseY, imageone, loadSound*/
 
 var worm, apple, wrapper, orange, cracker, leaves, meat, fries, carton, bottle, coffee, eggshell, butter, checkmark, redx;
 var score, lives, GameOn, sleep;
@@ -12,6 +12,7 @@ var LeftSideOfCoffee, RightSideOfMeat;
 var LeftSideOfBottle, RightSideOfCarton;
 var LeftSideOfEggshell, RightSideOfButter;
 var gameContext, wormActive;
+
 
 function setup(){
   createCanvas(800, 500);
@@ -40,6 +41,7 @@ function setup(){
   butter = loadImage('https://cdn.glitch.com/0e5db94f-2a9c-481a-ba2f-6b919eaaacdf%2FButterClipart.jpg?v=1595188746607');
   checkmark = loadImage('https://cdn.glitch.com/0e5db94f-2a9c-481a-ba2f-6b919eaaacdf%2FGreenCheckmark.jpg?v=1594934689873');
   redx = loadImage('https://cdn.glitch.com/0e5db94f-2a9c-481a-ba2f-6b919eaaacdf%2FRedX.jpg?v=1594935161087');
+  
 }
 
 
@@ -216,7 +218,7 @@ function appleWrapper() {
         background(252, 159, 159);
 
         //FUN FACT BOX
-        fill(255, 255, 255);
+        fill(255);
         rect(150, 110, 500, 275, 60);
 
         //NOT QUITE
